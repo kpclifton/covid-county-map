@@ -6,13 +6,13 @@ This shiny app display maps of COVID-19 cases by counties for select US states a
 All of the data gathered was publicly available. The sources are listed below. The aggregated data is available in this github repo as 'covid_countydata.csv'. The Urban Institute's R package `urbnmapr` provided the county shapefiles. (https://medium.com/@urban_institute/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2)
                
 ## Sources for COVID-19 cases:
-Maryland COVID-19 Case Map Dashboard: https://coronavirus.maryland.gov/
-COVID-19 in Virginia: http://www.vdh.virginia.gov/coronavirus/
-District of Columbia Coronavirus Data: "https://coronavirus.dc.gov/page/coronavirus-data
-COVID-19 Testing in Pennsylvania: https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx
+- Maryland COVID-19 Case Map Dashboard: https://coronavirus.maryland.gov/
+- COVID-19 in Virginia: http://www.vdh.virginia.gov/coronavirus/
+- District of Columbia Coronavirus Data: "https://coronavirus.dc.gov/page/coronavirus-data
+- COVID-19 Testing in Pennsylvania: https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx
 
 ## Sources for county FIPS codes:
-Virginia: https://www.cccarto.com/fipscodes/virginia/
-Maryland: https://web.archive.org/web/20040928115157/http://www.epa.gov/enviro/html/codes/md.html
-Pennsylvania: https://data.pa.gov/Government-That-Works/Federal-Information-Processing-Standard-FIPS-Codes/44ch-j9ei
+- Virginia: https://www.cccarto.com/fipscodes/virginia/
+- Maryland: https://web.archive.org/web/20040928115157/http://www.epa.gov/enviro/html/codes/md.html
+- Pennsylvania: https://data.pa.gov/Government-That-Works/Federal-Information-Processing-Standard-FIPS-Codes/44ch-j9ei
 
