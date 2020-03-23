@@ -1,5 +1,7 @@
 # covid-county-map
 
+**Link to hosted app:** https://kpclifton.shinyapps.io/COVID-19_CountyMap/
+
 ## Description
 This shiny app display maps of COVID-19 cases by counties for select US states and the District of Columbia. Currently, users can select Maryland, Pennsylvania, Virginia or DC. The counties are those defined by the U.S. Census Bureau which actually includes counties and some independent cities.  When the user hovers over a locality, the user sees the locality's name and its number of cases. The number of cases is generally reported as the number of positive tests among people tested but the definition can differ by state and is not clearly explained for every state.
 
