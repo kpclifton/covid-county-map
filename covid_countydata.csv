@@ -1,0 +1,226 @@
+﻿locality,county_fips,state_name,cases
+Accomack County,51001, Virginia,1
+Albemarle County,51003, Virginia,2
+Alexandria,51510, Virginia,5
+Alleghany County,51005, Virginia,0
+Amelia County,51007, Virginia,0
+Amherst County,51009, Virginia,1
+Appomattox County,51011, Virginia,0
+Arlington County,51013, Virginia,26
+Augusta County,51015, Virginia,0
+Bath County,51017, Virginia,0
+Bedford County,51019, Virginia,1
+Bland County,51021, Virginia,0
+Botetourt County,51023, Virginia,1
+Bristol,51520, Virginia,0
+Brunswick County,51025, Virginia,0
+Buchanan County,51027, Virginia,0
+Buckingham County,51029, Virginia,0
+Buena Vista,51530, Virginia,0
+Campbell County,51031, Virginia,0
+Caroline County,51033, Virginia,0
+Carroll County,51035, Virginia,0
+Charles City County,51036, Virginia,1
+Charlotte County,51037, Virginia,0
+Charlottesville ,51540, Virginia,4
+Chesapeake ,51550, Virginia,0
+Chesterfield County,51041, Virginia,8
+Clarke County,51043, Virginia,0
+Colonial Heights ,51570, Virginia,0
+Covington ,51580, Virginia,0
+Craig County,51045, Virginia,0
+Culpeper County,51047, Virginia,1
+Cumberland County,51049, Virginia,0
+Danville ,51590, Virginia,0
+Dickenson County,51051, Virginia,0
+Dinwiddie County,51053, Virginia,0
+Emporia ,51595, Virginia,0
+Essex County,51057, Virginia,0
+Fairfax,51600, Virginia,0
+Fairfax County,51059, Virginia,31
+Falls Church ,51610, Virginia,0
+Fauquier County,51061, Virginia,0
+Floyd County,51063, Virginia,0
+Fluvanna County,51065, Virginia,1
+Franklin,51620, Virginia,0
+Franklin County,51067, Virginia,1
+Frederick County,51069, Virginia,0
+Fredericksburg ,51630, Virginia,0
+Galax ,51640, Virginia,0
+Giles County,51071, Virginia,0
+Gloucester County,51073, Virginia,2
+Goochland County,51075, Virginia,2
+Grayson County,51077, Virginia,0
+Greene County,51079, Virginia,0
+Greensville County,51081, Virginia,0
+Halifax County,51083, Virginia,0
+Hampton ,51650, Virginia,0
+Hanover County,51085, Virginia,1
+Harrisonburg ,51660, Virginia,1
+Henrico County,51087, Virginia,8
+Henry County,51089, Virginia,0
+Highland County,51091, Virginia,0
+Hopewell ,51670, Virginia,0
+Isle of Wight County,51093, Virginia,1
+James City County,51095, Virginia,32
+King and Queen County,51097, Virginia,0
+King George County,51099, Virginia,0
+King William County,51101, Virginia,0
+Lancaster County,51103, Virginia,0
+Lee County,51105, Virginia,2
+Lexington ,51678, Virginia,0
+Loudoun County,51107, Virginia,15
+Louisa County,51109, Virginia,1
+Lunenburg County,51111, Virginia,0
+Lynchburg ,51680, Virginia,0
+Madison County,51113, Virginia,0
+Manassas ,51683, Virginia,0
+Manassas Park ,51685, Virginia,0
+Martinsville ,51690, Virginia,0
+Mathews County,51115, Virginia,0
+Mecklenburg County,51117, Virginia,1
+Middlesex County,51119, Virginia,0
+Montgomery County,51121, Virginia,0
+Nelson County,51125, Virginia,0
+New Kent County,51127, Virginia,0
+Newport News ,51700, Virginia,2
+Norfolk ,51710, Virginia,3
+Northampton County,51131, Virginia,0
+Northumberland County,51133, Virginia,0
+Norton ,51720, Virginia,0
+Nottoway County,51135, Virginia,0
+Orange County,51137, Virginia,0
+Page County,51139, Virginia,0
+Patrick County,51141, Virginia,0
+Petersburg ,51730, Virginia,0
+Pittsylvania County,51143, Virginia,0
+Poquoson ,51735, Virginia,0
+Portsmouth ,51740, Virginia,1
+Powhatan County,51145, Virginia,0
+Prince Edward County,51147, Virginia,1
+Prince George County,51149, Virginia,0
+Prince William County,51153, Virginia,18
+Pulaski County,51155, Virginia,0
+Radford ,51750, Virginia,0
+Rappahannock County,51157, Virginia,0
+Richmond,51760, Virginia,6
+Richmond County,51159, Virginia,0
+Roanoke,51770, Virginia,0
+Roanoke County,51161, Virginia,0
+Rockbridge County,51163, Virginia,0
+Rockingham County,51165, Virginia,2
+Russell County,51167, Virginia,0
+Salem ,51775, Virginia,0
+Scott County,51169, Virginia,0
+Shenandoah County,51171, Virginia,0
+Smyth County,51173, Virginia,0
+Southampton County,51175, Virginia,0
+Spotsylvania County,51177, Virginia,2
+Stafford County,51179, Virginia,5
+Staunton ,51790, Virginia,0
+Suffolk ,51800, Virginia,1
+Surry County,51181, Virginia,0
+Sussex County,51183, Virginia,0
+Tazewell County,51185, Virginia,0
+Virginia Beach ,51810, Virginia,17
+Warren County,51187, Virginia,0
+Washington County,51191, Virginia,0
+Waynesboro ,51820, Virginia,0
+Westmoreland County,51193, Virginia,0
+Williamsburg ,51830, Virginia,5
+Winchester ,51840, Virginia,0
+Wise County,51195, Virginia,0
+Wythe County,51197, Virginia,0
+York County,51199, Virginia,5
+Allegany County ,24001,Maryland,0
+Anne Arundel County ,24003,Maryland,18
+Baltimore County ,24005,Maryland,28
+Baltimore City,24510,Maryland,24
+Calvert County ,24009,Maryland,2
+Caroline County ,24011,Maryland,1
+Carroll County,24013,Maryland,4
+Cecil County ,24015,Maryland,1
+Charles County ,24017,Maryland,5
+Dorchester County ,24019,Maryland,0
+Frederick County ,24021,Maryland,1
+Garrett County ,24023,Maryland,0
+Harford County ,24025,Maryland,5
+Howard County,24027,Maryland,24
+Kent County ,24029,Maryland,0
+Montgomery County,24031,Maryland,83
+Prince George's County ,24033,Maryland,40
+Queen Anne's County ,24035,Maryland,0
+Somerset County,24039,Maryland,1
+St.Mary's County,24037,Maryland,1
+Talbot County,24041,Maryland,1
+Washington County,24043,Maryland,1
+Wicomico County,24045,Maryland,2
+Worcester County,24047,Maryland,2
+District of Columbia,11001,District of Columbia,98
+Adams County,42001,Pennsylvania,5
+Allegheny County,42003,Pennsylvania,40
+Armstrong County,42005,Pennsylvania,0
+Beaver County,42007,Pennsylvania,3
+Bedford County,42009,Pennsylvania,0
+Berks County,42011,Pennsylvania,13
+Blair County,42013,Pennsylvania,0
+Bradford County,42015,Pennsylvania,0
+Bucks County,42017,Pennsylvania,32
+Butler County,42019,Pennsylvania,0
+Cambria County,42021,Pennsylvania,0
+Cameron County,42023,Pennsylvania,0
+Carbon County,42025,Pennsylvania,0
+Centre County,42027,Pennsylvania,1
+Chester County,42029,Pennsylvania,23
+Clarion County,42031,Pennsylvania,0
+Clearfield County,42033,Pennsylvania,0
+Clinton County,42035,Pennsylvania,0
+Columbia County,42037,Pennsylvania,1​
+Crawford County,42039,Pennsylvania,0
+Cumberland County,42041,Pennsylvania,11
+Dauphin County,42043,Pennsylvania,0
+Delaware County,42045,Pennsylvania,43
+Elk County,42047,Pennsylvania,0
+Erie County,42049,Pennsylvania,2
+Fayette County,42051,Pennsylvania,0
+Forest County,42053,Pennsylvania,0
+Franklin County,42055,Pennsylvania,0
+Fulton County,42057,Pennsylvania,0
+Greene County,42059,Pennsylvania,0
+Huntingdon County,42061,Pennsylvania,0
+Indiana County,42063,Pennsylvania,0
+Jefferson County,42065,Pennsylvania,0
+Juniata County,42067,Pennsylvania,0
+Lackawanna County,42069,Pennsylvania,6
+Lancaster County,42071,Pennsylvania,6
+Lawrence County,42073,Pennsylvania,0
+Lebanon County,42075,Pennsylvania,​3
+Lehigh County,42077,Pennsylvania,19
+Luzerne County,42079,Pennsylvania,7
+Lycoming County,42081,Pennsylvania,0
+McKean County,42083,Pennsylvania,0
+Mercer County,42085,Pennsylvania,​1
+Mifflin County,42087,Pennsylvania,0
+Monroe County,42089,Pennsylvania,31
+Montgomery County,42091,Pennsylvania,87
+Montour County,42093,Pennsylvania,​1
+Northampton County,42095,Pennsylvania,21
+Northumberland County,42097,Pennsylvania,0
+Perry County,42099,Pennsylvania,0
+Philadelphia County,42101,Pennsylvania,91
+Pike County,42103,Pennsylvania,3
+Potter County,42105,Pennsylvania,​1
+Schuylkill County,42107,Pennsylvania,​1
+Snyder County,42109,Pennsylvania,0
+Somerset County,42111,Pennsylvania,0
+Sullivan County,42113,Pennsylvania,0
+Susquehanna County,42115,Pennsylvania,0
+Tioga County,42117,Pennsylvania,0
+Union County,42119,Pennsylvania,0
+Venango County,42121,Pennsylvania,0
+Warren County,42123,Pennsylvania,0
+Washington County,42125,Pennsylvania,7
+Wayne County,42127,Pennsylvania,2
+Westmoreland County,42129,Pennsylvania,4
+Wyoming County,42131,Pennsylvania,0
+York County,42133,Pennsylvania,10
