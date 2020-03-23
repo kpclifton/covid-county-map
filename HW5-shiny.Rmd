@@ -1,0 +1,103 @@
+---
+title: "COVID-19 cases by counties of U.S. states (Disclaimer: not official, developed as a course assignment)"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+```{r global, include=FALSE}
+library(tidyr)
+library(dplyr)
+library(urbnmapr)
+library(RColorBrewer)
+library(munsell)
+library(ggplot2)
+library(magrittr)
+library(plotly)
+```
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+# selectInput("state_choice", label= ("Select a U.S. state:"),
+#              choices = list("Alabama", "Alaska", "Arizona", "Arkansas",
+#                             "California","Colorado","Connecticut","Delaware",
+#                             "Florida","Georgia","Hawaii","Idaho","Illinois",
+#                             "Indiana","Iowa","Kansas","Kentucky","Louisiana",
+#                             "Maine","Maryland","Massachusetts","Michigan",
+#                             "Minnesota","Mississippi","Missouri","Montana",
+#                             "Nebraska","Nevada","New Hampshire","New Jersey",
+#                             "New Mexico","New York","North Carolina","North Dakota",
+#                             "Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island",
+#                             "South Carolina","South Dakota","Tennessee","Texas",
+#                             "Utah","Vermont","Virginia","Washington","West Virginia",
+#                             "Wisconsin","Wyoming","District of Columbia"), selected = "Maryland")
+
+selectInput("state_choice", label= ("Select a U.S. state:"),
+             choices = list("Maryland","Pennsylvania","Virginia",
+                            "District of Columbia"), selected = "Maryland")
+
+helpText("This app display maps of COVID-19 cases by counties 
+               for select US states and the District of Columbia.")
+
+helpText("Hover over a locality to see its name and the number of cases.")
+
+helpText("Number of cases is generally defined as the number of positive tests among people tested.")
+
+```
+
+Column
+-----------------------------------------------------------------------
+
+
+```{r}
+plotlyOutput("mymap", width = "100%")
+pal <- brewer.pal(9,"Blues")
+
+covid_countydata<- read.csv('https://raw.githubusercontent.com/kpclifton/covid-county-map/master/covid_countydata.csv')
+
+covid_countydata$county_fips <- as.character(covid_countydata$county_fips)
+
+covid_countydata$cases <- as.numeric(as.character(covid_countydata$cases))
+
+output$mymap <- renderPlotly({
+  q <- covid_countydata %>% 
+  select(county_fips, cases) %>%
+  left_join(counties, by = "county_fips") %>% 
+  filter(state_name == input$state_choice) %>% 
+  ggplot(mapping = aes(long, lat, group = group, fill = cases, 
+                       text = sprintf("Locality: %s <br> Cases: %s", county_name, cases))) +
+  geom_polygon(color = "#ffffff", size = .25) +
+  scale_fill_gradientn(guide = guide_colorbar(title.position = "top"),
+                       colours = pal) +  
+  coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
+  theme(legend.title = element_text(),
+        legend.key.width = unit(.5, "in")) +
+  labs(title ="COVID-19 Cases") 
+  ggplotly(q,tooltip = "text")
+  
+})
+```
+
+```{r}
+p("Last Updated: March 22, 2019 9:00PM")
+p("Sources:",
+    a("Maryland COVID-19 Case Map Dashboard.", 
+      href = "https://coronavirus.maryland.gov/"),
+    a("COVID-19 in Virginia.", 
+      href = "http://www.vdh.virginia.gov/coronavirus/"),
+    a("District of Columbia Coronavirus Data.", 
+      href = "https://coronavirus.dc.gov/page/coronavirus-data"),
+    a("COVID-19 Testing in Pennsylvania.", 
+      href = "https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx")
+  )
+
+```
+
