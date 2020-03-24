@@ -98,6 +98,8 @@ p("Sources:",
     a("COVID-19 Testing in Pennsylvania.", 
       href = "https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx")
   )
+p("Code on ",
+  a("Github"), href = "https://github.com/kpclifton/covid-county-map")
 
 ```
 
